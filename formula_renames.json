@@ -6,6 +6,7 @@
   "ark": "velero",
   "arm": "nyx",
   "artifactory-cli-go": "jfrog-cli-go",
+  "aztfy": "aztfexport",
   "badtouch": "authoscope",
   "bash-completion2": "bash-completion@2",
   "beanstalk": "beanstalkd",
