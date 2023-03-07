@@ -18,6 +18,8 @@ class Aztfy < Formula
   end
   depends_on "go" => :build
 
+  deprecate! date: "2023-03-07", because: is renamed to aztfexport
+
   def install
     ENV["CGO_ENABLED"] = "0"
     system "go", "build", *std_go_args(ldflags: "-s -w -X 'main.version=v#{version}' -X 'main.revision=#{Utils.git_short_head(length: 7)}'")
